@@ -1,0 +1,54 @@
+/* Import Poppins font */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-weight: 700; /* Make text bold */
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+/* Course Colors */
+.course {
+    color: white;
+    font-weight: bold;
+}
+
+.iss105 { background-color: #ff6b6b; } /* Red */
+.is107 { background-color: #ff9f43; } /* Orange */
+.cs107 { background-color: #1dd1a1; } /* Green */
+.cs107l { background-color: #5f27cd; } /* Purple */
+.it103 { background-color: #54a0ff; } /* Blue */
+.it103l { background-color: #ff9ff3; } /* Pink */
+.hum039 { background-color: #feca57; } /* Yellow */
+.ss086 { background-color: #48dbfb; } /* Light Blue */
+
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+}
