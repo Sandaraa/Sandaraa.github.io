@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>COURSE</span>PORTFOLIO.</h2>
+    </header>
+
+    <section id="home" class="home">
+        <div class="image-container">
+            <img src="dara.jpg" alt="Profile Image">
+        </div>
+        <div class="content">
+            <h1>Hi, I'm <span>Sandara</span></h1>
+            <p>Student</p>
+            <p>This website is a place where you can learn more about me and see some of the assignments, awards, and certifications I’ve achieved. Feel free to explore, and if you’d like to get in touch, just scroll down for contact details.</p>
+            <div class="btn-group">
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="text-container">
+                <h2>About Me</h2>
+                <p>
+                    Hi, my name is Sandara M. Monterola, and I am a BSIS student at MMCM. I have a strong interest in programming and other 
+                    Information Systems-related courses. I am always eager to expand my knowledge and improve my skills in this field. 
+                    Learning new technologies excites me, and I am committed to continuous growth. I am open to new opportunities that will 
+                    help me develop further.
+                </p>
+                <p>
+                    As a student, I am committed to continuously improving my programming skills. I strive to apply what I learn in meaningful 
+                    and practical ways. Every challenge I face is an opportunity to grow and refine my abilities. I believe that mastering 
+                    programming will open many doors for me in the future. With dedication and perseverance, I aim to turn my skills into 
+                    something impactful and valuable.
+                </p>
+            </div>
+            <div class="right-image-container">
+                <img src="sandara.jpg" alt="About Me Right Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-categories">
+            <div class="designs-container">
+                <h3>Designs</h3>
+                <img src="logg.png" alt="Designs Image">
+                <a href="https://drive.google.com/drive/folders/1uaM9YYe4SlcdHg6xI8XdaIAs1PUxhdNC?usp=sharing" class="see-more-btn">See More</a>
+            </div>
+            <div class="systems-container">
+                <h3>Systems</h3>
+                <img src="system.png" alt="Systems Image">
+                <a href="https://drive.google.com/drive/folders/1JEzU5KxZ5JRgOn8jJgdQnD3ciWhpwiTJ?usp=sharing" class="see-more-btn">See More</a>
+            </div>
+        </div>
+    </section>
+      
+    <section id="awards-certifications" class="awards-certifications">
+        <h2>Awards & Certifications</h2>
+        <p>Achievements and recognitions received for academic excellence, extracurricular contributions, and professional training.</p>
+        <div class="award-text">
+            <p>
+                As a student, my focus has been on continuous learning and improvement. While I may not have many awards, I take pride in the progress I’ve made and the skills I’ve developed. Every project and challenge I tackle contributes to my growth. I believe that success is not just about awards but about the knowledge and experience gained along the way. I'm motivated to keep pushing forward, learning, and achieving my personal best.
+            </p>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1nGoDMfor9ieBX6wjYki7g0gQRso3CMCk?usp=sharing" class="view-awards-btn">View Awards and Achievements</a>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me through the following channels:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/share/15bsCk5RYz/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+            <li><a href="mailto:monteroladara6@gmail.com">Email</a></li>
+        </ul>
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message here..." required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
+''
